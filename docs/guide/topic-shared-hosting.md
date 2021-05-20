@@ -41,7 +41,7 @@ the frontend and backend will be sharing the same cookies, creating a clash. In 
         ],
     ],
     'user' => [
-        'identityClass' => 'common\models\User',
+        'identityClass' => 'common\models\Customer',
         'enableAutoLogin' => true,
         'identityCookie' => [
             'name' => '_identity-backend',

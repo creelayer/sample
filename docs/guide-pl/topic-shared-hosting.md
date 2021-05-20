@@ -43,7 +43,7 @@ aplikacji back-end w pliku `backend/config/main.php` następująco:
         ],
     ],
     'user' => [
-        'identityClass' => 'common\models\User',
+        'identityClass' => 'common\models\Customer',
         'enableAutoLogin' => true,
         'identityCookie' => [
             'name' => '_identity-backend',

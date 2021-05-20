@@ -34,7 +34,7 @@ frontend
         ],
     ],
     'user' => [
-        'identityClass' => 'common\models\User',
+        'identityClass' => 'common\models\Customer',
         'enableAutoLogin' => true,
         'identityCookie' => [
             'name' => '_identity-backend',
